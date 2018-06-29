@@ -1,0 +1,35 @@
+.container{
+    padding: 15px;
+}
+
+body {
+    background: rgba(255, 123, 0, 0.445) !important;
+}
+
+#logoHead {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titleText {
+    text-align: center;
+    color: black;
+}
+
+#userBlock {
+    display: none;
+    text-align: center;
+    color: black !important;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:768px) {
+    .container{
+        max-width: 550px;
+    }
+
+}
